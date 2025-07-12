@@ -1,0 +1,39 @@
+A. Error: user is not defined
+Penyebab: Variabel user belum didefinisikan sebelum digunakan.
+Lokasi Terjadi:
+File: app.js
+Fungsi: getUserData
+Baris: 15, Kolom: 10
+Dipanggil dari processUser pada app.js baris 30, kolom 5
+Dan dari main pada app.js baris 50, kolom 2
+
+B. Error: Cannot read properties of null (reading 'length')
+Penyebab: Mencoba mengakses properti .length dari sebuah nilai yang null.
+Lokasi Terjadi:
+File: data.js
+Fungsi: processData
+Baris: 8, Kolom: 15
+Dipanggil dari handleRequest pada server.js baris 20, kolom 5
+Dan dari main pada app.js baris 35, kolom 2
+
+C. Error: SyntaxError: Unexpected token ')'
+Penyebab: Ada tanda kurung tutup ) yang tidak semestinya (kemungkinan kurang tanda buka ( sebelumnya atau kelebihan tutup )).
+Lokasi Terjadi:
+File: script.js
+Baris: 5
+
+D. Error: TypeError: Cannot set properties of undefined (setting 'status')
+Penyebab: Memberi nilai pada properti status dari sebuah variabel yang undefined.
+Lokasi Terjadi:
+File: order.js
+Fungsi: updateOrder
+Baris: 18, Kolom: 12
+Dipanggil dari processOrder pada order.js baris 35, kolom 5
+Dan dari checkout pada cart.js baris 50, kolom 2
+
+E. Error: RangeError: Maximum call stack size exceeded
+Penyebab: ketika fungsi terus-menerus memanggil dirinya sendiri tanpa henti (rekursi tak terbatas) atau ketika ada terlalu banyak panggilan fungsi yang bertumpuk, melebihi batas yang ditetapkan oleh sistem. 
+Lokasi Terjadi:
+File: app.js
+Fungsi: recursiveFunction
+Baris: 10, Kolom: 3
