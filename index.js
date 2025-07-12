@@ -49,12 +49,12 @@ tasksIrul();
  */
 
 // import your tasks here
-const triangle = require('./tasks/Cristian/no1.js');
-const countarray = require('./tasks/Cristian/no2.js');
-const segitiga = require('./tasks/Cristian/no3.js');
-const countarray2 = require('./tasks/Cristian/no4.js');
-const cetaktabel = require('./tasks/Cristian/no5.js');
-const buatrentang = require('./tasks/Cristian/no6.js');
+const triangle = require("./tasks/Cristian/no1.js");
+const countarray = require("./tasks/Cristian/no2.js");
+const segitiga = require("./tasks/Cristian/no3.js");
+const countarray2 = require("./tasks/Cristian/no4.js");
+const cetaktabel = require("./tasks/Cristian/no5.js");
+const buatrentang = require("./tasks/Cristian/no6.js");
 
 function tugasc() {
     // Soal no 1: Triangle
@@ -64,10 +64,10 @@ function tugasc() {
     triangle(5);
     // Failed
    
-        console.log("Failure case (triangle('abc')):");
-        triangle("abc");
-        console.log("Failure case (triangle(-1)):");
-        triangle(-1);
+    console.log("Failure case (triangle('abc')):");
+    triangle("abc");
+    console.log("Failure case (triangle(-1)):");
+    triangle(-1);
 
 
     // Soal no 2: Count Array
@@ -85,10 +85,10 @@ function tugasc() {
     segitiga(5);
     // Failed
    
-        console.log("Failure case (printSegitiga('abc')):");
-        segitiga("abc");
-        console.log("Failure case (printSegitiga(-1)):");
-        segitiga(-1);
+    console.log("Failure case (printSegitiga('abc')):");
+    segitiga("abc");
+    console.log("Failure case (printSegitiga(-1)):");
+    segitiga(-1);
        
    
 
@@ -106,10 +106,10 @@ function tugasc() {
     console.log("Success case (cetakTabel(3)):");
     cetaktabel(3);
     // Failed
-        console.log("Failure case (cetakTabel('a')):");
-        cetaktabel("a"); 
-        console.log("Failure case (cetakTabel(-2)):");
-        cetaktabel(-2); 
+    console.log("Failure case (cetakTabel('a')):");
+    cetaktabel("a"); 
+    console.log("Failure case (cetakTabel(-2)):");
+    cetaktabel(-2); 
    
 
 
@@ -122,10 +122,10 @@ function tugasc() {
     buatrentang(5, 10);
     // Failed
     
-        console.log("Failure case (buatRentang('a', 5)):");
-        buatrentang("a", 5); 
-        console.log("Failure case (buatRentang(5, 'b')):");
-        buatrentang(5, "b"); 
+    console.log("Failure case (buatRentang('a', 5)):");
+    buatrentang("a", 5); 
+    console.log("Failure case (buatRentang(5, 'b')):");
+    buatrentang(5, "b"); 
     
 }
 tugasc();
