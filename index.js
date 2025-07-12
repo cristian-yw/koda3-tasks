@@ -63,18 +63,12 @@ function tugasc() {
     console.log("Success case (triangle(5)):");
     triangle(5);
     // Failed
-    try {
+   
         console.log("Failure case (triangle('abc')):");
         triangle("abc");
-    } catch (error) {
-        console.log(error.message);
-    }
-    try {
         console.log("Failure case (triangle(-1)):");
         triangle(-1);
-    } catch (error) {
-        console.log(error.message);
-    }
+
 
     // Soal no 2: Count Array
     console.log("\n--- Task: Count Array ---");
@@ -90,18 +84,13 @@ function tugasc() {
     console.log("Success case (printSegitiga(5)):");
     segitiga(5);
     // Failed
-    try {
+   
         console.log("Failure case (printSegitiga('abc')):");
         segitiga("abc");
-    } catch (error) {
-        console.log(error.message);
-    }
-    try {
         console.log("Failure case (printSegitiga(-1)):");
         segitiga(-1);
-    } catch (error) {
-        console.log(error.message);
-    }
+       
+   
 
     // Soal no 4: Process Numbers
     console.log("\n--- Task: Process Numbers ---");
@@ -117,18 +106,11 @@ function tugasc() {
     console.log("Success case (cetakTabel(3)):");
     cetaktabel(3);
     // Failed
-    try {
         console.log("Failure case (cetakTabel('a')):");
         cetaktabel("a"); 
-    } catch (error) {
-        console.log(error.message);
-    }
-    try {
         console.log("Failure case (cetakTabel(-2)):");
         cetaktabel(-2); 
-    } catch (error) {
-        console.log(error.message);
-    }
+   
 
 
     // Soal no 6: Buat Rentang
@@ -139,17 +121,11 @@ function tugasc() {
     console.log("Success case (buatRentang(5, 10)):");
     buatrentang(5, 10);
     // Failed
-    try {
+    
         console.log("Failure case (buatRentang('a', 5)):");
         buatrentang("a", 5); 
-    } catch (error) {
-        console.log(error.message);
-    }
-    try {
         console.log("Failure case (buatRentang(5, 'b')):");
         buatrentang(5, "b"); 
-    } catch (error) {
-        console.log(error.message);
-    }
+    
 }
 tugasc();
